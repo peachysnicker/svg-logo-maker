@@ -6,3 +6,9 @@
 // Text output in command line is “Generated logo.svg’
 // When you open the file in browser a 300x200 px image of logo shows
 
+const inquirer = require('inquirer');
+const questions = require('./library/prompts');
+const shapes = require('./library/shapes');
+
+prompt.questions.then(shapes);
+
