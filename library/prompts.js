@@ -1,3 +1,4 @@
+//prompt questions for the command line to generate logo params
 const questions = [
     {
         type: "input",
@@ -28,3 +29,6 @@ const questions = [
     },
 
 ];
+
+//make this file available as called questions
+exports.questions = questions;

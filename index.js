@@ -7,6 +7,8 @@
 // When you open the file in browser a 300x200 px image of logo shows
 
 const inquirer = require('inquirer');
+const fs = require("fs");
+
 const questions = require('./library/prompts');
 const shapes = require('./library/shapes');
 
@@ -23,13 +25,3 @@ function charsLength(response) {
     return true;
 };
 
-
-//Function to create the svg file after prompt questions
-inquirer
-    .prompt(questions)
-    .then((response) =>
-        fs.writeFile("readme.md",
-
-//if error will console log the error or console log success msg
-  (err) => (err ? console.log(err) : console.log("succes!!"))
-  ));
