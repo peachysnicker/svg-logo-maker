@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "inquirer": "^9.1.4"
-  }
+  },
+  "name": "svg-logo-maker",
+  "description": "logo generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peachysnicker/svg-logo-maker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peachysnicker/svg-logo-maker/issues"
+  },
+  "homepage": "https://github.com/peachysnicker/svg-logo-maker#readme"
 }
