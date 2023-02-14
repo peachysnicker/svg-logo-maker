@@ -4,7 +4,9 @@ logo generator
 
 ### Table of Contents
 
--<a name="description" href="#description">Description</a> -<a name="usage" href="#usage">Usage</a> -<a name="contact" href="#contact">Contact</a>
+- <a name="description" href="#description">Description</a>
+- <a name="usage" href="#usage">Usage</a>
+- <a name="contact" href="#contact">Contact</a>
 
 ## Description
 
@@ -18,5 +20,6 @@ Here is a video of how to use the command prompts in your terminal to generate a
 ## Contact me
 
 With questions please do not hesitate to email or review my github profile.
-https://github.com/peachysnicker
-myemail@email.com
+
+- https://github.com/peachysnicker
+- myemail@email.com
