@@ -12,3 +12,24 @@ const shapes = require('./library/shapes');
 
 prompt.questions.then(shapes);
 
+//Function to ensure min of 3 characters or valid text input 
+function charsLength(response) {
+    if (!response) {
+        return "Please input a valid response";
+    }
+    if (response.length < 3) {
+        return "Please input at least 3 characters";
+    }
+    return true;
+};
+
+
+//Function to create the svg file after prompt questions
+inquirer
+    .prompt(questions)
+    .then((response) =>
+        fs.writeFile("readme.md",
+
+//if error will console log the error or console log success msg
+  (err) => (err ? console.log(err) : console.log("succes!!"))
+  ));
